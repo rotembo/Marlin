@@ -1764,7 +1764,7 @@
 // enter the serial receive buffer, so they cannot be blocked.
 // Currently handles M108, M112, M410
 // Does not work on boards using AT90USB (USBCON) processors!
-//#define EMERGENCY_PARSER
+#define EMERGENCY_PARSER
 
 // Bad Serial-connections can miss a received command by sending an 'ok'
 // Therefore some clients abort after 30 seconds in a timeout.
@@ -2287,10 +2287,10 @@
   #define X2_HYBRID_THRESHOLD    80
   #define Y_HYBRID_THRESHOLD     80
   #define Y2_HYBRID_THRESHOLD    80
-  #define Z_HYBRID_THRESHOLD     400
-  #define Z2_HYBRID_THRESHOLD    400
-  #define Z3_HYBRID_THRESHOLD    400
-  #define Z4_HYBRID_THRESHOLD    400
+  #define Z_HYBRID_THRESHOLD     255
+  #define Z2_HYBRID_THRESHOLD    255
+  #define Z3_HYBRID_THRESHOLD    255
+  #define Z4_HYBRID_THRESHOLD    255
   #define E0_HYBRID_THRESHOLD     95
   #define E1_HYBRID_THRESHOLD     95
   #define E2_HYBRID_THRESHOLD     95
