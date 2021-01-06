@@ -36,7 +36,7 @@
 
 #include "../core/boards.h"
 #include "../core/macros.h"
-#include "../../../config/my/Configuration.h"
+#include "../../../config/skr_mini_e3_1.2/Configuration.h"
 
 #ifdef CUSTOM_VERSION_FILE
   #if __has_include(STRINGIFY(../../CUSTOM_VERSION_FILE))
@@ -53,7 +53,7 @@
 #endif
 
 #include "../core/drivers.h"
-#include "../../../config/my/Configuration_adv.h"
+#include "../../../config/skr_mini_e3_1.2/Configuration_adv.h"
 
 #include "Conditionals_adv.h"
 
